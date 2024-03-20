@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav  class="navigation">
+    <ul>
+    
+    <li style="color: #faa935;font-family: 'Times New Roman', Times, serif;">GUVI PROJECT</li>
+        <li><a href="./index.html" >Home</a></li>
+        <li><a href="./login.html">Login</a></li>
+        <li><a href="#" class="active">Register</a></li>
+    </ul>
+</nav>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 m-auto">
+        <div class="login__container d-flex justify-content-between">
+          <div class="login__img">
+            <img src="./assets/register.png" alt="">
+          </div>
+          <div class="login__form">
+            <div class="user">
+              <img src="./assets/user.png" alt="">
+            </div>
+            <h2>Register</h2>
+            <form id="registerForm" >
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name" required id="username">
+                <input type="email" class="form-control" placeholder="Email" required id="email">
+                <input type="password" class="form-control" placeholder="Password" required id="password">
+                <input type="number" class="form-control" placeholder="Phone" required id="phone">
+                <input type="date" class="form-control"  required id="date">
+
+
+
+                
+                
+              </div>
+              <button type="submit" class="submit__button">Register</button>
+            </form>
+            <p>Already have an account? <a href="./login.html">Login</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="./js/register.js" type="module"></script>
+<script src="./js/profile.js" type="module"></script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+ a{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login__img{
+    width: 100%;
+    text-align: center;
+}
+
+.login__img img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.login__form{
+    padding: 50px;
+    background: #faa935;
+    position: relative;
+}
+.login__container{
+    box-shadow: rgba(17,12, 46, 0.15)0px 48px 100px 0px;
+    margin-top: 100px;
+}
+
+.login__container .user{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -9%;
+    left: 50%;
+    transform: translate(-50%,-9%);
+}
+
+.login__form .user img{
+    width: 100%;
+}
+
+.login__form h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login__form{
+    width: 80%;
+}
+
+.login__form input,select{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin-bottom: .7rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color:#0b2727;
+}
+
+.login__form input,select:focus{
+    outline: none;
+}
+
+
+.login__form p{
+    font-size: .9rem;
+    color: #fff;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.login__form p a{
+    color: #0b2727;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+
+
+  .submit__button{
+    padding: .5rem;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: #0b2727 ;
+  } 
+
+  .navigation {
+    padding: 20px;
+}
+
+.navigation ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 20px; 
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+}
+
+.navigation ul li a{
+    text-decoration: none;  
+}
+
+.navigation ul li a:hover {
+    text-decoration: none; 
+    text-align: center;
+    color: #faa935;
+}
+
+.active{
+    color: #faa935;
+}
+
+.user-data-container {
+    text-align: center;
+}
+
+
+
+ 
+
+
+
+@media (max-width: 768px) {
+    .navigation ul li{
+        display: block; 
+        margin-bottom: 2%;
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width:768px){
+    .login__img{
+        display: none;
+    }
+    .login__form{
+        width: 70%;
+        margin: auto;
+    }
+    .login__container{
+        padding-bottom: 2rem;
+        margin-top: 70px;
+    }
+    .navigation ul li{
+        display: block;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .login__form{
+        width: 100%;
+    }
+    .login__container{
+        padding: 1rem;
+    }
+    .navigation ul li{
+        display: block; 
+        margin-bottom: 4%;
+        text-align: center;
+    }
+}
